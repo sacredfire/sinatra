@@ -19,3 +19,7 @@ end
 get '/more/*' do
   params[:splat]
 end
+
+get '/duck' do
+  "Go duck your!"
+end
